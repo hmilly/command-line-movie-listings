@@ -1,22 +1,82 @@
 {
-  "books": [
+  "films": [
+
+
     {
-      "reviews": [
-        { "content": "i liked it", "rating": 4 },
-        { "rating": "3", "content": "great" },
-        { "rating": "1", "content": "hated it" },
-        { "rating": "10", "content": "srofgu" }
-      ],
       "id": 1,
-      "title": "Good Book about Javascript"
+      "title": "Jurassic Park",
+      "ageRating": "12",
+      "duration": 120,
+      "times": ["12:00", "14:20", "16:40", "19:00", "21:20"],
+      "ticketTot": 200,
+      "ticketsSold": [
+        {
+          "time": "14:20",
+          "seatSold": "4"
+        }
+      ]
+    },  
+    {
+      "id": 2,
+      "title": "Die Hard",
+      "ageRating": "15",
+      "duration": 130,
+      "times": ["15:00", "17:45", "19:10", "22:00"],
+      "ticketTot": 200,
+      "ticketsSold": [
+        {
+          "time": "17:45",
+          "seatSold": "7"
+        }
+      ]
     },
     {
-      "title": "Book about Ruby",
-      "reviews": [{ "rating": "3", "content": "hello" }],
-      "id": 2
+      "id": 3,
+      "title": "Big",
+      "ageRating": "PG",
+      "duration": 110,
+      "times": ["12:00", "13:30", "16:00", "18:30", "22:00"],
+      "ticketTot": 200,
+      "ticketsSold": [
+        {
+          "time": "22:00",
+          "seatSold": "10"
+        }
+      ]
     },
-    { "title": "Book about Ruby", "reviews": [], "id": 4 },
-    { "title": "Book about Ruby", "reviews": [], "id": 5 },
-    { "title": "Book about Ruby", "reviews": [], "id": 6 }
+    {
+      "id": 4,
+      "title": "Paranormal Activity",
+      "ageRating": "18",
+      "duration": 130,
+      "times": ["15:20", "17:00", "18:30", "21:00"],
+      "ticketTot": 200,
+      "ticketsSold": [
+        {
+          "time": "17:00",
+          "seatSold": "1"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bill and Ted",
+      "ageRating": "12",
+      "duration": 115,
+      "times": ["12:30", "14:00", "16:45", "19:30", "21:30"],
+      "ticketTot": 200,
+      "ticketsSold": [
+        {
+          "time": "14:00",
+          "seatSold": "3"
+        },
+        {
+          "time": "19:30",
+          "seatSold": "20"
+        }
+      ]
+    }
   ]
 }
+ 
+
