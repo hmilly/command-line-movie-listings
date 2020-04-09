@@ -132,6 +132,7 @@ let yesNo2 = () => {
   } else if (quest === true) {
     selections.ticketsRemain -= selections.tickets;
     let tickArr = films[selections.id - 1].ticketsSold;
+    /*
     for (let tix of tickArr) {
       if (selections.time === tix.time) {
         let upd = tix.seatSold += selections.tickets;
@@ -142,6 +143,7 @@ let yesNo2 = () => {
         API.update("filmsMas", tickArr);
       }
     }
+    */
     finished();
   } else {
     yesNo2();
